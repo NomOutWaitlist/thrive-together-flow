@@ -14,7 +14,126 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      booking_requests: {
+        Row: {
+          concern_duration: string
+          consent: boolean
+          created_at: string
+          email: string
+          full_name: string
+          id: string
+          impact_level: number
+          notes: string
+          phone: string
+          preferred_contact: string
+          preferred_day: string
+          preferred_time: string
+          primary_concern: string
+          service_interest: string
+          status: string
+        }
+        Insert: {
+          concern_duration: string
+          consent: boolean
+          created_at?: string
+          email: string
+          full_name: string
+          id?: string
+          impact_level: number
+          notes?: string
+          phone: string
+          preferred_contact: string
+          preferred_day: string
+          preferred_time: string
+          primary_concern: string
+          service_interest: string
+          status?: string
+        }
+        Update: {
+          concern_duration?: string
+          consent?: boolean
+          created_at?: string
+          email?: string
+          full_name?: string
+          id?: string
+          impact_level?: number
+          notes?: string
+          phone?: string
+          preferred_contact?: string
+          preferred_day?: string
+          preferred_time?: string
+          primary_concern?: string
+          service_interest?: string
+          status?: string
+        }
+        Relationships: []
+      }
+      contact_submissions: {
+        Row: {
+          created_at: string
+          email: string
+          full_name: string
+          id: string
+          message: string
+          phone: string
+          status: string
+          subject: string
+        }
+        Insert: {
+          created_at?: string
+          email: string
+          full_name: string
+          id?: string
+          message: string
+          phone?: string
+          status?: string
+          subject: string
+        }
+        Update: {
+          created_at?: string
+          email?: string
+          full_name?: string
+          id?: string
+          message?: string
+          phone?: string
+          status?: string
+          subject?: string
+        }
+        Relationships: []
+      }
+      referral_submissions: {
+        Row: {
+          consent: boolean
+          created_at: string
+          friend_contact: string
+          friend_name: string
+          id: string
+          referrer_contact: string
+          referrer_name: string
+          status: string
+        }
+        Insert: {
+          consent: boolean
+          created_at?: string
+          friend_contact: string
+          friend_name: string
+          id?: string
+          referrer_contact: string
+          referrer_name: string
+          status?: string
+        }
+        Update: {
+          consent?: boolean
+          created_at?: string
+          friend_contact?: string
+          friend_name?: string
+          id?: string
+          referrer_contact?: string
+          referrer_name?: string
+          status?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
