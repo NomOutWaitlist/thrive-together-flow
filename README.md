@@ -1,14 +1,19 @@
-# Welcome to your Lovable project
+# Trinova Life
+
+https://trinovacentre.com/about-us/., https://trinovacentre.com, https://trinovacentre.com/referral/, https://trinovacentre.com/nutrition-balance-program/ - go through the entire websites and above information to create an amazing full web app for the entire website -
+make sure to implement SEO principles and design amazing and most impactful way - also no generic content or emdashes - easier to skim and follow - attached are the services we provide  - make sure to design it so amazingly - like a designer and creative head who creates simplistic designs like apple but so impactful that it is not generic
 
 This project was built with [Lovable](https://lovable.dev).
 
+**Live app**: https://thrive-together-flow.lovable.app
+
 ## Build with Lovable
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/af2aa425-31e8-4f87-9e1f-d470a8da4583).
 
 - **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+- **Stay in sync**: every change made in Lovable is committed straight to this repository.
+- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
 
 ## Development
 
@@ -20,10 +25,3 @@ cd <repository-name>
 npm i
 npm run dev
 ```
-
-## Built with
-
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
